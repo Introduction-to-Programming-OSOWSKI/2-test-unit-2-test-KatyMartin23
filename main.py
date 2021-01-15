@@ -1,11 +1,11 @@
-def waterstate(f):
+def waterState(f):
     if f <= 32:
         return "solid"
     elif f >= 212:
         return "gas"
     else:
         return "liquid" 
-print(waterstate(60))
+print(waterState(60))
 
 def isDozen(d):
     if d % 12 == 0:
@@ -21,14 +21,12 @@ def toGerman(word):
         return "nein"
 print(toGerman("no"))
 
-def stoplight(c):
+def stopLight(c):
     if c == "green":
         return "go"
     elif c == "yellow":
         return "slow"
     else:
         return "stop"
-print(stoplight("green"))
-
-
+print(stopLight("green"))
 
